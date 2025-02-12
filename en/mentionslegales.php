@@ -1,0 +1,93 @@
+<?php
+    session_start();
+    $lang ='en';
+    $_SESSION['lang']=$lang;
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Legal information - Nevenkebla</title>
+        <script src="https://kit.fontawesome.com/a44d991d57.js" crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--Les animations de scroll-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&family=Roboto&family=Taviraj:wght@300&display=swap" rel="stylesheet"> <!--La police google font-->
+        <link rel="icon" href="../img/LogoFond.png" type="image/png"/>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="langs">
+                <a href="../fr/mentionslegales" class="lang">
+                    <img src="../img/france.png" alt="France Flag">
+                    <p>Fran&ccedil;ais</p> 
+                </a>
+                <a href="#" class="lang">
+                    <img src="../img/english.png" alt="United-States Flag">
+                    <p>English</p>
+                </a>
+            </div>
+            <nav>
+                <div class="logo">
+                    <a href="index"><img src="../img/Logo.png" alt="Nevenkebla's Logo"></a>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-bars ouvrir"></i>
+                    <i class="fas fa-times fermer"></i>
+                </div>
+                <ul class="menu">
+                    <li><a href="index" class="menu-lien">Home</a></li>
+                    <li><a href="realisations" class="menu-lien">Accomplishments</a></li>
+                </ul> 
+            </nav>
+        </header>
+        <section class="mention">
+            <div class="container">
+                <h2>Publisher</h2><br>
+                <p>       
+                    Diallo Aboubacar<br>
+                    aboubacar_diallo@outlook.com<br>
+                    +33 6 51 44 49 58<br>
+                </p><br>
+                <h2>Hosting</h2><br>
+                <p>       
+                    Hostinger<br>
+                    Head office : Kaunas, Lituanie<br>
+                </p><br>
+                <h2>Intellectual Property Rights</h2><br>
+                <p>
+                    In accordance with the Intellectual Property Code, and more generally with all agreements containing provisions relating to
+                    relating to copyright, the partial or total reproduction of texts, images or illustrations not explicitly intended to be
+                    to be downloaded by the visitors, is prohibited without prior authorization of the editor or any right holder.
+                </p><br>         
+                <h2>Hyperlinks</h2><br>
+                <p>
+                    The site nevenkebla.fr may contain hyperlinks to other websites completely independent of the site nevenkebla.fr.
+                    The publisher does not assume or guarantee that the information contained in such hyperlinks
+                    or in any other website is accurate, complete or true. Therefore, any access to another website
+                    linked to the site nevenkebla.fr is made under the own responsibility, full and complete, of the user.
+                </p><br>
+                <h2>Responsibilities</h2><br>
+                <p>
+                    The use of the information contained on this site is the sole responsibility of the user. 
+                    All the resources contained in this site, texts, visuals and illustrations 
+                    (diagrams, drawings, plans, photographs and computer animations) are communicated for information purposes only 
+                    and can in no way engage the responsibility of the publisher. Indeed, despite the desire of the publisher to provide the most accurate 
+                    the most accurate information possible and to ensure a regular update of the website, 
+                    the latter is not responsible for any imprecision, inaccuracy, error or possible omission concerning 
+                    information contained in the site, nor for the results obtained from the use and practice of the information 
+                    delivered on this communication support.
+                </p>
+            </div>
+        </section> 
+        <footer>
+            <ul class="copy"> 
+                <li>© 2024 Diallo Aboubacar | All rights reserved.</li> 
+                <li><a href="#">Legal information</a></li>
+            </ul>
+        </footer>
+        <script src="../js/app.js"></script>
+    </body>
+</html>

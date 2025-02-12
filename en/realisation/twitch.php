@@ -1,0 +1,118 @@
+<?php
+    session_start();
+    $lang ='en';
+    $_SESSION['lang']=$lang;
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Twitch - Nevenkebla</title>
+        <script src="https://kit.fontawesome.com/a44d991d57.js" crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--Les animations de scroll-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&family=Roboto&family=Taviraj:wght@300&display=swap" rel="stylesheet"> <!--La police google font-->
+        <link rel="icon" href="../../img/LogoFond.png" type="image/png"/>
+        <link rel="stylesheet" href="../../css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="langs">
+                <a href="../../fr/realisation/twitch" class="lang">
+                    <img src="../../img/france.png" alt="France Flag">
+                    <p>Fran&ccedil;ais</p> 
+                </a>
+                <a href="#" class="lang">
+                    <img src="../../img/english.png" alt="United-States Flag">
+                    <p>English</p>
+                </a>
+            </div>
+            <nav>
+                <div class="logo">
+                    <a href="../index"><img src="../../img/Logo.png" alt="Nevenkebla's Logo"></a>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-bars ouvrir"></i>
+                    <i class="fas fa-times fermer"></i>
+                </div>
+                <ul class="menu">
+                    <li><a href="../index" class="menu-lien">Home</a></li>
+                    <li><a href="../realisations" class="menu-lien">Accomplishments</a></li>
+                </ul> 
+            </nav>
+        </header>
+        <section class="real">
+            <div class="container">
+                <div class="real-corps"> 
+                    <div class="real-corps-block">
+                        <a href="https://www.twitch.tv/nevenkebla" target="_blank">
+                            <img src="../../img/real-twitch.png" alt="Twitch Thumbnail">
+                        </a>
+                    </div>
+                    <div class="real-corps-block">
+                        <h1>Twitch</h1>
+                        <p> 
+                            In my free time, usually during game nights with friends, I sometimes share content on Twitch. 
+                            I then use these broadcasts to edit and share on different social media platforms. <br>
+                            Feel free to subscribe! <br>
+                            <span class="sousligne">Software used:</span><br>
+                        </p>
+                        <div class="outils"> 
+                            <img src="../../img/streamlabs-obs.png" alt="Streamlabs Obs Logo">
+                        </div>
+                        <a href="https://www.twitch.tv/nevenkebla" target="_blank">
+                            <button class="btn">Get there <i class="fa fa-arrow-up-right-from-square"></i></button>
+                        </a>
+                    </div>
+                    <div class="real-corps-block" id="asset">
+                        <img src="../../img/ecrandebut.png" alt="Image Ecran D&eacute;but de Stream">
+                        <img src="../../img/ecranpause.png" alt="Image Ecran Pause de Stream">
+                        <img src="../../img/ecranfin.png" alt="Image Ecran Fin de Stream">
+                    </div>
+                    <div class="real-corps-block">
+                        <h1 id="h2">Assets</h1>
+                        <p> 
+                            To match my Twitch channel with my style and colors, several elements have been created. 
+                            Stream screens are used for the introduction and conclusion of live broadcasts also for breaks, 
+                            such as during game changes or discussions. 
+                            The background images of these screens will change depending on my progress in completing all versions of Minecraft.
+                        </p>
+                        <p>
+                            Additionally, a transition reflecting my color scheme is used during scene changes in my streams. <br>
+                            <span class="gras">V1:</span> A diamond shape scrolls from left to right, filling the screen for a few seconds. 
+                            The logo enlarges, the sword drops, then the logo shrinks, and the diamond completes its movement, revealing the next scene. <br>
+                            <span class="gras">V2:</span> A rectangle scrolls from left to right, filling the screen for a few seconds. 
+                            The new logo has a pulsating effect, then the rectangle completes its movement, and the new scene appears. <br>
+                            <span class="sousligne">Software used:</span><br>
+                        </p>
+                        <div class="outils"> 
+                            <img src="../../img/adobe-photoshop.png" alt="Photoshop Logo">
+                            <img src="../../img/adobe-aftereffects.png" alt="After Effects Logo">
+                        </div>
+                    </div>
+                    <div class="real-corps-block" id="retour">
+                        <a href="../realisations">
+                            <button class="btn"><i class="fa fa-arrow-left"></i> Accomplishments</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <ul class="copy"> 
+                <li>© 2024 Diallo Aboubacar | All rights reserved.</li> 
+                <li><a href="../mentionslegales">Legal information</a></li>
+	        </ul>
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!--Pour les animations de scroll-->
+        <script>
+            AOS.init();
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" 
+        integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="../../js/app.js"></script>
+    </body>
+</html>

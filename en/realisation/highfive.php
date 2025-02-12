@@ -1,0 +1,193 @@
+<?php
+    session_start();
+    $lang ='en';
+    $_SESSION['lang']=$lang;
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>High Five - Nevenkebla</title>
+        <script src="https://kit.fontawesome.com/a44d991d57.js" crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--Les animations de scroll-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&family=Roboto&family=Taviraj:wght@300&display=swap" rel="stylesheet"> <!--La police google font-->
+        <link rel="icon" href="../../img/LogoFond.png" type="image/png"/>
+        <link rel="stylesheet" href="../../css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="langs">
+                <a href="../../fr/realisation/highfive" class="lang">
+                    <img src="../../img/france.png" alt="France Flag">
+                    <p>Fran&ccedil;ais</p> 
+                </a>
+                <a href="#" class="lang">
+                    <img src="../../img/english.png" alt="United-States Flag">
+                    <p>English</p>
+                </a>
+            </div>
+            <nav>
+                <div class="logo">
+                    <a href="../index"><img src="../../img/Logo.png" alt="Nevenkebla's Logo"></a>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-bars ouvrir"></i>
+                    <i class="fas fa-times fermer"></i>
+                </div>
+                <ul class="menu">
+                    <li><a href="../index" class="menu-lien">Home</a></li>
+                    <li><a href="../realisations" class="menu-lien">Accomplishments</a></li>
+                </ul> 
+            </nav>
+        </header>
+        <section class="real">
+            <div class="container">
+                <div class="real-corps"> 
+                    <div class="real-corps-block">
+                        <img src="../../img/real-highfive.png" alt="Image High Five">
+                    </div>
+                    <div class="real-corps-block">
+                        <h1>End of studies project - High Five</h1>
+                        <p> 
+                            As part of my professional degree, we were tasked with creating, in groups of four or five people, 
+                            a game project based on the theme "Stronger Together." 
+                            I worked with <a href="https://jeffreybondue.wixsite.com/portfolio" target="_blank">Jeffrey Bondue</a>, 
+                            <a href="#" target="_blank">Simon Bastianelli</a>,  
+                            <a href="https://rayanmadouni.wixsite.com/website" target="_blank">Rayan Madouni</a> et
+                            <a href="https://lctayrick.wixsite.com/portfolio" target="_blank">Tayrick Louis-Charles</a>.
+                            Following the theme, we decided to create a cooperative game. 
+                            Being in a supervised project, I had specific tasks, 
+                            but I also had to help in other areas to ensure the feasibility of the project. 
+                            I was in charge of designing the first mission of the campaign. 
+                            We all participated in choosing the gameplay and artistic direction of the game, 
+                            and once we made our decision, we focused on our strengths.
+                        </p>
+                        <p>
+                            We decided to set our game in an imaginary world where a magical catastrophe caused parts of the land to float into the sky. 
+                            You and your partner play as the magical gloves of a witch linked to this catastrophe. 
+                            With the witch missing, you set out to find her and uncover the mystery behind the disaster. 
+                            As magical gloves, 
+                            you possess the power of transformation and must collaborate to solve all the puzzles along the way.
+                        </p>
+                        <a href="https://jeffreyinu.itch.io/high-five" target="_blank">
+                            <button class="btn">Play It <i class="fa fa-arrow-up-right-from-square"></i></button>
+                        </a>
+                    </div>
+                    <div class="real-corps-block" id="asset">
+                        <img src="../../img/highfivescreen.png" alt="Screen High Five">
+                        <img src="../../img/highfivescreen2.png" alt="Screen High Five 2">
+                    </div>
+                    <div class="real-corps-block">
+                        <h1 id="h2">Gameplay</h1>
+                        <p>
+                            <span class="gras">High Five</span> is a cooperative puzzle game in 3D low poly. 
+                            Each player controls a glove and must work with their partner to reach the end of the level. 
+                            A set of interactive objects (buttons, ropes, boxes, etc.) is present in the game. 
+                            Depending on the level, a set of powers is available. 
+                            You can transform into three forms: rock, paper, and scissors, each with unique characteristics. 
+                            To transform, you need to find the piece corresponding to the form in the level. 
+                            Some objects can only be interacted with if the glove has the appropriate form. 
+                            The game is played in local split-screen mode, and players must communicate to progress. 
+                            To win, both players must reach the platforms at the end of the level together.
+                        </p>
+                        <p>
+                            The palm form is the gloves' standard transformation, allowing interaction with wooden crates to push. 
+                            It can also serve as a platform for the other player to reach heights that can't be accessed with a simple jump, 
+                            where one player jumps onto the other for support.
+                        </p>
+                        <p>
+                            The rock form increases the gloves' strength. 
+                            In this form, by pressing the interaction key in the right place, you can horizontally move large stone blocks.
+                            The rock form also allows you to break rocks blocking the way or access to a transformation piece.
+                        </p>
+                        <p>
+                            The scissors form focuses on speed. In this form, the gloves can propel themselves. 
+                            While distance isn't limited, the gloves are still affected by gravity, giving their trajectory a curve. 
+                            This form also allows you to cut ropes holding various bridges. 
+                            To cut a rope, the player can press the interaction key near it or propel themselves directly into it.
+                        </p>
+                    </div>
+                    <div class="real-corps-block" id="asset">
+                        <img src="../../img/highfivescreen3.png" alt="Screen High Five 3">
+                        <img src="../../img/highfivescreen4.png" alt="Screen High Five 4">
+                    </div>
+                    <div class="real-corps-block">
+                        <h1 id="h2">Level Design</h1>
+                        <p>
+                            When forming our group, we organized based on each person's skills. 
+                            Initially, I focused on creating the game's levels, particularly the level introducing the scissors transformation. 
+                            The structure of this level came to me quickly. 
+                            The biggest challenge was balancing difficulty: since it was a tutorial level for a casual game, 
+                            it had to be accessible to new players. I also helped my colleagues with their levels whenever I could. 
+                            We had three level designers, each responsible for a tutorial level, and then we gathered to create the first main level.
+                        </p>
+                        <p>
+                            These levels were inspired by the tutorial levels in <span class="italique">Portal</span>.
+                            In these levels, players learn the different transformations one by one and discover their special abilities. 
+                            In the tutorial levels for scissors and rock, 
+                            players start separated and must reunite at the end of the level by helping each other. 
+                            The first main level combines all the forms, with players starting together and having to split up to advance. <br>
+                            <span class="sousligne">Software used:</span><br>
+                        </p>
+                        <div class="outils">
+                            <img src="../../img/adobe-photoshop.png" alt="Photoshop Logo">
+                            <img src="../../img/adobe-illustrator.png" alt="Illustrator Logo">
+                            <img src="../../img/github.png" alt="Github Logo">
+                            <img src="../../img/unrealengine.png" alt="Unreal Engine Logo">
+                        </div>
+                        <p>Level Design Document :<br>
+                            <a href="../../doc/HighFive_LDD.pdf" target="_blank"><button class="btn">High Five LDD</button></a>
+                        </p>
+                    </div>
+                    <div class="real-corps-block" id="asset">
+                        <img src="../../img/highfivescreen5.png" alt="Screen High Five 5">
+                    </div>
+                    <div class="real-corps-block">
+                        <h1 id="h2">Sound Design</h1>
+                        <p>
+                            After designing the levels, I moved on to the game's sound design. 
+                            For the ambient sound, I drew inspiration from one of my favorite games, 
+                            <span class="italique">The Legend of Zelda: Breath of the Wild</span>.
+                            Both games take place in post-apocalyptic worlds where the player is often alone, 
+                            so we chose a discreet ambient music that isn't constantly present. 
+                            Since the game is set on floating islands, we also added natural sounds such as wind and birds.
+                        </p>
+                        <p>
+                            For the gloves' sound design, each transformation needed to reflect a touch of magic. 
+                            Depending on the transformation, the sound had to convey either power or speed. 
+                            I also created the menu selection sounds. 
+                            Some sounds were played multiple times in a short span, 
+                            so I added variations in tone, timing, and volume to avoid monotony and repetition. <br>
+                            <span class="sousligne">Logiciel utilis&eacute; :</span><br>
+                        </p>
+                        <div class="outils">
+                            <img src="../../img/reaper.png" alt="Reaper Logo">
+                        </div>
+                    </div>
+                    <div class="real-corps-block" id="retour">
+                        <a href="../realisations">
+                            <button class="btn"><i class="fa fa-arrow-left"></i> Accomplishments</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+		    <ul class="copy"> 
+                <li>© 2024 Diallo Aboubacar | All rights reserved.</li> 
+                <li><a href="../mentionslegales">Legal information</a></li>
+            </ul>
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!--Pour les animations de scroll-->
+        <script>
+            AOS.init();
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" 
+        integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="../../js/app.js"></script>
+    </body>
+</html>
