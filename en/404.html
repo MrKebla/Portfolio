@@ -1,18 +1,13 @@
-<?php
-    session_start();
-    $lang ='en';
-    $_SESSION['lang']=$lang;
-?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Error 404 - Nevenkebla</title>
+        <title>ERROR 404</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&family=Roboto&family=Taviraj:wght@300&display=swap" rel="stylesheet"> <!--La police google font-->
-        <link rel="icon" href="../img/LogoFond.png" type="image/png"/>
+        <link rel="icon" href="https://mrkebla.github.io/Portfolio/img/Logo2Fond.png" type="image/png"/>
         <style>
             body {
                 margin: 0;
@@ -28,6 +23,10 @@
             
             img {
                 width: 15%;
+            }
+
+            p {
+                color: rgb(200, 200, 200);
             }
 
             .container {
@@ -59,17 +58,24 @@
                 color: rgb(230, 230, 230);
             }
 
-            p {
-                color: rgb(200, 200, 200);
+            .link {
+                color: #F1F0A9;
             }
         </style>
     </head>
     <body>
         <div class="container">
-            <img src="../img/logo.png" alt="Nevenkebla's Logo">
+            <img src="https://mrkebla.github.io/Portfolio/img/Logo2.png" alt="Nevenkebla's Logo 2">
             <h1>Error 404</h1>
             <p>Page not found.</p>
-            <a href="./index"><button class="btn">Home</button></a>
+            <i>
+                Maybe one of my 
+                <a href="https://linktr.ee/NevenKebla" class="link" target="_blank">videos</a> 
+                will cheer you up!
+            </i>
+            <a href="https://mrkebla.github.io/Portfolio/en/index">
+                <button class="btn">Home</button>
+            </a>
         </div> 
     </body>
 </html>

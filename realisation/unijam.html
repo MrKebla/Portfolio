@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unijam - Nevenkebla</title>
+        <script src="https://kit.fontawesome.com/a44d991d57.js" crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--Les animations de scroll-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&family=Roboto&family=Taviraj:wght@300&display=swap" rel="stylesheet"> <!--La police google font-->
+        <link rel="icon" href="../img/LogoFond.png" type="image/png"/>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="langs">
+                <a href="#" class="lang">
+                    <img src="../img/france.png" alt="Drapeau France">
+                    <p>Fran&ccedil;ais</p> 
+                </a>
+                <a href="../en/realisation/unijam" class="lang">
+                    <img src="../img/english.png" alt="Drapeau United-States">
+                    <p>English</p>
+                </a>
+            </div>
+            <nav>
+                <div class="logo">
+                    <a href="../index"><img src="../img/Logo.png" alt="Logo de Nevenkebla"></a>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-bars ouvrir"></i>
+                    <i class="fas fa-times fermer"></i>
+                </div>
+                <ul class="menu">
+                    <li><a href="../index" class="menu-lien">Accueil</a></li>
+                    <li><a href="../realisations" class="menu-lien">R&eacute;alisations</a></li>
+                </ul> 
+            </nav>
+        </header>
+        <section class="real">
+            <div class="container">
+                <div class="real-corps"> 
+                    <div class="real-corps-block">
+                        <img src="../img/real-unijam.png" alt="Logo de l'effondrement">
+                    </div>
+                    <div class="real-corps-block">
+                        <h1 id="unijam">Unijam 2022 — L'effondrement</h1>
+                        <p>
+                            Le but de cette Game Jam &eacute;tait de produire un jeu en moins de 48 heures, 
+                            sur le th&egrave;me "La distance rend toute chose infiniment plus pr&eacute;cieuse". 
+                            En groupe de quatre avec <a href="https://davall.fr/" target="_blank">Allan David</a>, 
+                            <a href="https://jeffreybondue.wixsite.com/portfolio" target="_blank">Jeffrey Bondue</a> 
+                            et <a href="https://adrigollum.github.io/Portfolio/" target="_blank">Adrien Chateau</a>, 
+                            nous avons cr&eacute;&eacute; le jeu "L'effondrement". 
+                            Il s'agit d'un visual novel de road trip dans lequel il faut prendre les bonnes d&eacute;cisions pour atteindre sa destination. 
+                            Pour survivre &agrave; l'effondrement, un groupe de cinq personnages doit se rendre &agrave; Perpignan, le dernier bastion de l'humanit&eacute;. 
+                            Ils commencent par faire le plein de ressources dans un supermarch&eacute; &agrave; Lille.  
+                        </p>
+                        <p>
+                            Dans ce projet, j'&eacute;tais responsable de d&eacute;terminer les villes fran&ccedil;aises offrant un cheminement logique et de tracer les itin&eacute;raires possibles. 
+                            Avec mon camarade Adrien Chateau, nous avons recherch&eacute; des repr&eacute;sentations de ces diff&eacute;rentes villes, 
+                            comme des monuments ou des lieux embl&eacute;matiques, pour aider le joueur &agrave; se situer rapidement et facilement. 
+                            Nous avons &eacute;galement imagin&eacute; des situations pour chaque ville en lien avec les images choisies pour les repr&eacute;senter. 
+                            Ces situations, de plus en plus complexes, sont ponctu&eacute;es de nombreuses r&eacute;f&eacute;rences. 
+                            Ces r&eacute;f&eacute;rences s’inspirent des r&eacute;putations, des personnalit&eacute;s, et des repr&eacute;sentations de ces villes dans d'autres m&eacute;dias.
+                        </p>
+                        <a href="https://effondrement.davall.fr/" target="_blank">
+                            <button class="btn">Y jouer <i class="fa fa-arrow-up-right-from-square"></i></button>
+                        </a>
+                    </div>
+                    <div class="real-corps-block" id="asset">
+                        <img src="../img/unijam.png" alt="Unijam Image">
+                        <img src="../img/unijam2.png" alt="Unijam Image 2">
+                    </div>
+                    <div class="real-corps-block">
+                        <h1 id="h2">D&eacute;but de partie</h1>
+                        <p>
+                            Au d&eacute;but du jeu, un texte expliquant la situation appara&icirc;t, 
+                            suivi par la phase d’achat dans la sup&eacute;rette. 
+                            Chaque personnage est pr&eacute;sent&eacute; via une fiche descriptive, 
+                            avec une cagnotte commune &agrave; tous les personnages. 
+                            Chaque personnage poss&egrave;de des comp&eacute;tences qui le rendent plus ou moins performant dans diff&eacute;rents domaines.
+                        </p>
+                        <p>
+                            Le joueur doit choisir strat&eacute;giquement les ressources &agrave; acheter, 
+                            car il est limit&eacute; par l'argent et le temps. 
+                            Il peut privil&eacute;gier la nourriture pour maintenir ses personnages en vie jusqu’&agrave; la fin du road trip, 
+                            ou explorer les diff&eacute;rents rayons &agrave; la recherche de ressources inattendues mais pr&eacute;cieuses pour le bon d&eacute;roulement de son voyage.
+                        </p>
+                        <p>
+                            Ensuite, le joueur doit s&eacute;lectionner le conducteur. 
+                            Tous les personnages sont visibles &agrave; l’arri&egrave;re de la camionnette, 
+                            et en survolant leur portrait avec le curseur, 
+                            il est possible de voir leur fiche descriptive. 
+                            Celle-ci indique leur identit&eacute;, leurs comp&eacute;tences, ainsi que leur &eacute;tat de sant&eacute;, 
+                            de fatigue, de faim et de soif. 
+                            Un personnage trop &eacute;puis&eacute; ne peut pas conduire, 
+                            et un personnage meurt lorsque sa barre de sant&eacute; est vide. 
+                            Si sa barre de faim ou de soif est vide, sa sant&eacute; diminue progressivement.
+                        </p>
+                    </div>
+                    <div class="real-corps-block" id="asset">
+                        <img src="../img/unijam3.png" alt="Unijam Image 3">
+                        <img src="../img/unijam4.png" alt="Unijam Image 4">
+                    </div>
+                    <div class="real-corps-block">
+                        <h1 id="h2">Choix</h1>
+                        <p>
+                            Apr&egrave;s avoir choisi le conducteur, il faut d&eacute;terminer la destination. 
+                            Selon les ressources disponibles, certaines destinations peuvent &ecirc;tre inaccessibles. 
+                            Dans le jeu, l’essence d&eacute;termine la distance maximale que le joueur peut parcourir. 
+                            Si le joueur se retrouve &agrave; court d’essence, il perd la partie, 
+                            car les personnages ne peuvent plus se d&eacute;placer. 
+                            L’essence est donc une ressource extr&ecirc;mement pr&eacute;cieuse.
+                        </p>
+                        <p>
+                            Il existe deux types de routes selon la quantit&eacute; d’essence poss&eacute;d&eacute;e par le joueur : 
+                            une route simple et une autoroute. 
+                            Selon la ville, le joueur peut acc&eacute;der &agrave; une ou quatre autres villes.
+                            La route simple m&egrave;ne le joueur &agrave; la ville suivante et co&ucirc;te une unit&eacute; d’essence.
+                            L’autoroute permet de sauter une ville et de rejoindre la ville suivante, mais elle co&ucirc;te deux unit&eacute;s d’essence.
+                        </p>
+                        <p>
+                            Une fois arriv&eacute; &agrave; destination, 
+                            le joueur voit &agrave; travers les yeux du conducteur et est confront&eacute; &agrave; deux choix, 
+                            dont l’un est souvent plus avantageux que l’autre. 
+                            Apr&egrave;s avoir pris sa d&eacute;cision, le joueur choisit le personnage qui effectuera l’action. 
+                            Ce personnage perdra ou gagnera de la sant&eacute; et/ou de l’&eacute;nergie selon le choix du joueur. 
+                            Certains choix permettent aussi de r&eacute;cup&eacute;rer de l’essence.
+                        </p>
+                        <p>
+                            Apr&egrave;s l’ex&eacute;cution de l’action, le jour suivant commence. 
+                            Le joueur doit de nouveau choisir un conducteur, puis une destination, et ainsi de suite. 
+                            &Agrave; chaque nouveau jour, les personnages perdent un peu de faim et de soif. 
+                            Le joueur doit donc choisir les bons chemins et prendre les bonnes d&eacute;cisions s'il souhaite atteindre sa destination finale.
+                        </p>
+                    </div>
+                    <div class="real-corps-block" id="retour">
+                        <a href="../realisations">
+                            <button class="btn"><i class="fa fa-arrow-left"></i> R&eacute;alisations</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <ul class="copy"> 
+                <li>© 2024 Diallo Aboubacar | Tous droits r&eacute;serv&eacute;s.</li> 
+                <li><a href="../mentionslegales">Mentions L&eacute;gales</a></li>
+            </ul>
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!--Pour les animations de scroll-->
+        <script>
+            AOS.init();
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" 
+        integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="../js/app.js"></script>
+    </body>
+</html>
