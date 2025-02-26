@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>High Five - Nevenkebla</title>
+        <script src="https://kit.fontawesome.com/a44d991d57.js" crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--Les animations de scroll-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&family=Roboto&family=Taviraj:wght@300&display=swap" rel="stylesheet"> <!--La police google font-->
+        <link rel="icon" href="../img/LogoFond.png" type="image/png"/>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="langs">
+                <a href="#" class="lang">
+                    <img src="../img/france.png" alt="Drapeau France">
+                    <p>Fran&ccedil;ais</p> 
+                </a>
+                <a href="../en/realisation/highfive" class="lang">
+                    <img src="../img/english.png" alt="Drapeau United-States">
+                    <p>English</p>
+                </a>
+            </div>
+            <nav>
+                <div class="logo">
+                    <a href="../index"><img src="../img/Logo.png" alt="Logo de Nevenkebla"></a>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-bars ouvrir"></i>
+                    <i class="fas fa-times fermer"></i>
+                </div>
+                <ul class="menu">
+                    <li><a href="../index" class="menu-lien">Accueil</a></li>
+                    <li><a href="../realisations" class="menu-lien">R&eacute;alisations</a></li>
+                </ul> 
+            </nav>
+        </header>
+        <section class="real">
+            <div class="container">
+                <div class="real-corps"> 
+                    <div class="real-corps-block">
+                        <img src="../img/real-highfive.png" alt="Image High Five">
+                    </div>
+                    <div class="real-corps-block">
+                        <h1>Projet de Fin d'&Eacute;tude — High Five</h1>
+                        <p> 
+                            Dans le cadre de ma licence professionnelle, il nous &eacute;tait demand&eacute; de cr&eacute;er, 
+                            en groupe de quatre ou cinq personnes, un projet de jeu autour du th&egrave;me "Plus fort ensemble". 
+                            J'&eacute;tais en groupe avec <a href="https://jeffreybondue.wixsite.com/portfolio" target="_blank">Jeffrey Bondue</a>, 
+                            <a href="#" target="_blank">Simon Bastianelli</a>,  
+                            <a href="https://rayanmadouni.wixsite.com/website" target="_blank">Rayan Madouni</a> et
+                            <a href="https://lctayrick.wixsite.com/portfolio" target="_blank">Tayrick Louis-Charles</a>.
+                            Suivant ce th&egrave;me, nous avons d&eacute;cid&eacute; de d&eacute;velopper un jeu en coop&eacute;ration. 
+                            &Eacute;acute;tant dans un projet tutor&eacute;, j'avais des missions sp&eacute;cifiques, 
+                            mais je devais &eacute;galement intervenir sur d'autres aspects pour maximiser la faisabilit&eacute; du projet. 
+                            Nous avons tous particip&eacute; au choix du gameplay et &agrave; la direction artistique du jeu. 
+                            Une fois notre d&eacute;cision prise, nous avons commenc&eacute; &agrave; nous concentrer sur nos points forts.
+                        </p>
+                        <p>
+                            Nous avons choisi de situer notre jeu dans un monde imaginaire, 
+                            o&ugrave; une catastrophe magique a envoy&eacute; des parties de terres dans les cieux. 
+                            Vous incarnez, avec votre compagnon, les gants magiques d'une sorci&egrave;re li&eacute;e &agrave; cette catastrophe. 
+                            Celle-ci ayant disparu, vous partez &agrave; sa recherche pour d&eacute;couvrir le myst&egrave;re derri&egrave;re cet &eacute;v&eacute;nement. 
+                            En tant que gants magiques, 
+                            vous disposez du pouvoir de transformation et devez collaborer pour r&eacute;soudre toutes les &eacute;nigmes sur votre chemin.
+                        </p>
+                        <a href="https://jeffreyinu.itch.io/high-five" target="_blank">
+                            <button class="btn">Y jouer <i class="fa fa-arrow-up-right-from-square"></i></button>
+                        </a>
+                    </div>
+                    <div class="real-corps-block" id="asset">
+                        <img src="../img/highfivescreen.png" alt="Screen High Five">
+                        <img src="../img/highfivescreen2.png" alt="Screen High Five 2">
+                    </div>
+                    <div class="real-corps-block">
+                        <h1 id="h2">Gameplay</h1>
+                        <p>
+                            <span class="gras">High Five</span> est un jeu coop&eacute;ratif d'&eacute;nigmes en 3D low poly. 
+                            Chaque joueur contr&ocirc;le un gant et doit coop&eacute;rer avec son partenaire pour atteindre la fin du niveau. 
+                            Un ensemble d'objets interactifs est pr&eacute;sent dans le jeu (boutons, cordes, bo&icirc;tes, etc.). 
+                            Selon le niveau, un set de pouvoirs est disponible. 
+                            Vous pouvez vous transformer en trois formes : 
+                            pierre, feuille et ciseaux, chacune avec des caract&eacute;ristiques propres. 
+                            Pour vous transformer, il est n&eacute;cessaire de trouver la pi&egrave;ce correspondant &agrave; la forme dans le niveau. 
+                            Certains objets ne peuvent &ecirc;tre activ&eacute;s que si le gant poss&egrave;de la forme ad&eacute;quate. 
+                            Le jeu se joue en mode local avec &eacute;cran partag&eacute;, et les joueurs doivent communiquer pour progresser. 
+                            Pour gagner, les deux joueurs doivent arriver ensemble sur la plateforme de fin de niveau et r&eacute;aliser un high five.
+                        </p>
+                        <p>
+                            La forme de la paume est la transformation standard des gants, permettant d'interagir avec des caisses en bois. 
+                            Elle peut &eacute;galement servir de plateforme &agrave; l'autre joueur pour atteindre des hauteurs inaccessibles avec un simple saut, 
+                            un joueur pouvant sauter sur l'autre pour l'utiliser comme support.
+                        </p>
+                        <p>
+                            La forme de la pierre augmente la puissance des gants. 
+                            Avec cette transformation, en appuyant sur la touche d'interaction au bon endroit, 
+                            il est possible de d&eacute;placer horizontalement de gros blocs de pierre. 
+                            La forme de la pierre permet &eacute;galement de d&eacute;truire les rochers.
+                        </p>
+                        <p>
+                            La forme des ciseaux se concentre sur la vitesse. 
+                            Dans cette forme, les gants peuvent se propulser. 
+                            Bien que la distance ne soit pas limit&eacute;e, les gants subissent toujours l'effet de la gravit&eacute;, 
+                            ce qui donne une trajectoire en courbe &agrave; leur propulsion. 
+                            Cette transformation permet &eacute;galement de couper des cordes qui retiennent divers ponts. 
+                            Pour couper une corde, 
+                            le joueur peut appuyer sur la touche d'interaction &agrave; proximit&eacute; de celle-ci ou se propulser directement sur elle.
+                        </p>
+                    </div>
+                    <div class="real-corps-block" id="asset">
+                        <img src="../img/highfivescreen3.png" alt="Screen High Five 3">
+                        <img src="../img/highfivescreen4.png" alt="Screen High Five 4">
+                    </div>
+                    <div class="real-corps-block">
+                        <h1 id="h2">Level Design</h1>
+                        <p>
+                            Lors de la formation de notre groupe, nous nous sommes organis&eacute;s en fonction des comp&eacute;tences de chacun. 
+                            Je me suis d'abord concentr&eacute; sur la cr&eacute;ation des niveaux, 
+                            en particulier sur le niveau d'introduction de la transformation en ciseaux. 
+                            La structure de ce niveau m'est venue rapidement &agrave; l'esprit. 
+                            Ce qui m'a pos&eacute; le plus de difficult&eacute;s, c'&eacute;tait de g&eacute;rer la difficult&eacute; : 
+                            ce niveau, &eacute;tant un tutoriel pour un jeu casual, devait &ecirc;tre accessible aux nouveaux joueurs. 
+                            J'ai &eacute;galement aid&eacute; mes coll&egrave;gues sur leurs niveaux d&egrave;s que j'en avais l'occasion. 
+                            Nous &eacute;tions trois level designers sur le projet, et chacun de nous a con&ccedil;u un niveau tutoriel. 
+                            Nous nous sommes ensuite r&eacute;unis pour concevoir le premier niveau principal.
+                        </p>
+                        <p>
+                            Ces niveaux ont &eacute;t&eacute; inspir&eacute;s des tutoriels des jeux <span class="italique">Portal</span>.
+                            Dans ces niveaux, les joueurs d&eacute;couvrent les diff&eacute;rentes transformations une &agrave; une et apprennent leurs sp&eacute;cificit&eacute;s. 
+                            Dans les niveaux tutoriels des ciseaux et de la pierre, 
+                            les joueurs commencent s&eacute;par&eacute;s et doivent se retrouver &agrave; la fin du niveau en s'aidant mutuellement. 
+                            Le premier vrai niveau rassemble toutes les formes ; 
+                            les joueurs encha&icirc;ne les phases o&ugrave; ils sont s&eacute;par&eacute;s et ensemble. <br>
+                            <span class="sousligne">Logiciels utilis&eacute;s :</span><br>
+                        </p>
+                        <div class="outils">
+                            <img src="../img/adobe-photoshop.png" alt="Photoshop Logo">
+                            <img src="../img/adobe-illustrator.png" alt="Illustrator Logo">
+                            <img src="../img/github.png" alt="Github Logo">
+                            <img src="../img/unrealengine.png" alt="Unreal Engine Logo">
+                        </div>
+                        <p>Level Design Document :<br>
+                            <a href="../doc/HighFive_LDD.pdf" target="_blank"><button class="btn">High Five LDD</button></a>
+                        </p>
+                    </div>
+                    <div class="real-corps-block" id="asset">
+                        <img src="../img/highfivescreen5.png" alt="Screen High Five 5">
+                    </div>
+                    <div class="real-corps-block">
+                        <h1 id="h2">Sound Design</h1>
+                        <p>
+                            Apr&egrave;s avoir con&ccedil;u les niveaux, je me suis tourn&eacute; vers le sound design du jeu. 
+                            Pour l'ambiance sonore, je me suis inspir&eacute; d'un de mes jeux pr&eacute;f&eacute;r&eacute;s, 
+                            <span class="italique">The Legend of Zelda: Breath of the Wild</span>.
+                            Les deux jeux se d&eacute;roulant dans un monde post-apocalyptique o&ugrave; le joueur est souvent seul, 
+                            nous avons opt&eacute; pour une musique d'ambiance discr&egrave;te, pr&eacute;sente par intermittence. 
+                            Le jeu se d&eacute;roulant sur des &icirc;les volantes, 
+                            nous avons ajout&eacute; des sons d'&eacute;l&eacute;ments naturels tels que le vent et les oiseaux.
+                        </p>
+                        <p>
+                            Pour le design sonore des gants, chaque transformation devait refl&eacute;ter une touche de magie. 
+                            Selon la transformation, le son devait &eacute;voquer soit la puissance, soit la vitesse. 
+                            J'ai &eacute;galement cr&eacute;&eacute; les sons de s&eacute;lection du menu. 
+                            Certains sons &eacute;tant jou&eacute;s plusieurs fois en un court laps de temps, 
+                            j'ai introduit des variations de ton, 
+                            de dur&eacute;e et de volume pour &eacute;viter la monotonie et la r&eacute;p&eacute;tition. <br>
+                            <span class="sousligne">Logiciel utilis&eacute; :</span><br>
+                        </p>
+                        <div class="outils">
+                            <img src="../img/reaper.png" alt="Reaper Logo">
+                        </div>
+                    </div>
+                    <div class="real-corps-block" id="retour">
+                        <a href="../realisations">
+                            <button class="btn"><i class="fa fa-arrow-left"></i> R&eacute;alisations</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <ul class="copy"> 
+                <li>© 2024 Diallo Aboubacar | Tous droits r&eacute;serv&eacute;s.</li> 
+                <li><a href="../mentionslegales">Mentions L&eacute;gales</a></li>
+            </ul>
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!--Pour les animations de scroll-->
+        <script>
+            AOS.init();
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" 
+        integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="../js/app.js"></script>
+    </body>
+</html>

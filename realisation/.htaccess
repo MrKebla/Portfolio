@@ -1,0 +1,8 @@
+ErrorDocument 404 /Portfolio/fr/realisations/erreur404.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^(.*)$ $1.php
+</IfModule>
