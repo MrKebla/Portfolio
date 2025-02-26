@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sick Game - Nevenkebla</title>
+        <script src="https://kit.fontawesome.com/a44d991d57.js" crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--Les animations de scroll-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&family=Roboto&family=Taviraj:wght@300&display=swap" rel="stylesheet"> <!--La police google font-->
+        <link rel="icon" href="../img/LogoFond.png" type="image/png"/>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="langs">
+                <a href="#" class="lang">
+                    <img src="../img/france.png" alt="Drapeau France">
+                    <p>Fran&ccedil;ais</p> 
+                </a>
+                <a href="../en/realisation/sickgame" class="lang">
+                    <img src="../img/english.png" alt="Drapeau United-States">
+                    <p>English</p>
+                </a>
+            </div>
+            <nav>
+                <div class="logo">
+                    <a href="../index"><img src="../img/Logo.png" alt="Logo de Nevenkebla"></a>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-bars ouvrir"></i>
+                    <i class="fas fa-times fermer"></i>
+                </div>
+                <ul class="menu">
+                    <li><a href="../index" class="menu-lien">Accueil</a></li>
+                    <li><a href="../realisations" class="menu-lien">R&eacute;alisations</a></li>
+                </ul> 
+            </nav>
+        </header>
+        <section class="real">
+            <div class="container">
+                <div class="real-corps"> 
+                    <div class="real-corps-block">
+                        <img src="../img/real-sickgame.png" alt="Logo de Sick Game">
+                    </div>
+                    <div class="real-corps-block">
+                        <h1>LudoMaker Game Jam — Sick Game</h1>
+                        <p> 
+                            La Ludomaker Game Jam s’est d&eacute;roul&eacute;e pendant ma licence professionnelle "M&eacute;tiers du Jeu Vid&eacute;o".
+                            L'objectif de cette Game Jam &eacute;tait de cr&eacute;er un jeu de soci&eacute;t&eacute; en 5 jours, 
+                            avec pour th&egrave;me "The more you have, the worse it gets" ("Plus tu en as, pire c'est"). 
+                            En collaboration avec <a href="https://kieran-mignon.com/" target="_blank">Kieran Mignon</a> 
+                            et <a href="https://rayanmadouni.wixsite.com/website" target="_blank">Rayan Madouni</a>, 
+                            nous avons con&ccedil;u le jeu de soci&eacute;t&eacute; intitul&eacute; "Sick Game".
+                            Le th&egrave;me principal du jeu &eacute;tait les maladies.
+                            L'objectif &eacute;tait d'avoir le moins de points &agrave; la fin de la partie en se d&eacute;barrassant de nos maladies les plus graves. 
+                            Une partie se terminait lorsque nous atteignions le nombre de tours fix&eacute; en d&eacute;but du jeu.
+                        </p>
+                    </div>
+                    <div class="real-corps-block" id="asset">
+                        <img src="../img/sickgamecartes.png" alt="Cartes Sick Game">
+                        <img src="../img/sickgamecartes2.png" alt="Cartes Sick Game 2">
+                    </div>
+                    <div class="real-corps-block">
+                        <h1 id="h2">Mat&eacute;riel de jeu</h1>
+                        <p>
+                            Le jeu comprend un compteur de tours, un jeton et des cartes de jeu. 
+                            Les cartes sont divis&eacute;es en quatre groupes principaux, chacun avec sa propre couleur : 
+                            les cartes &Eacute;tat, les cartes Maladie, les cartes M&eacute;dicament, et les cartes Action.
+                            Les cartes &Eacute;tat sont distribu&eacute;es au d&eacute;but du jeu et conf&egrave;rent des bonus 
+                            ou des p&eacute;nalit&eacute;s tout au long de la partie.
+                        </p>
+                        <p>
+                            Les cartes Maladie affichent un nombre en haut &agrave; gauche, 
+                            correspondant &agrave; la gravit&eacute; de la maladie et utilis&eacute; pour compter les points &agrave; la fin de la partie.
+                            Certaines maladies appartiennent &agrave; des familles sp&eacute;cifiques comme les Virus, les MST, et les maladies li&eacute;es aux selles.
+                            Il existe &eacute;galement quatre maladies incurables qui infligent des malus aux joueurs, comme une pioche forc&eacute;e, 
+                            une obligation de d&eacute;fausser, l'impossibilit&eacute; de jouer ou des cartes cach&eacute;es.
+                        </p>
+                        <p>
+                            Les cartes M&eacute;dicament sont utilis&eacute;es &agrave; la fin de la partie pour soigner une maladie. 
+                            Elles peuvent &eacute;galement gu&eacute;rir plusieurs maladies &agrave; la fois si plusieurs cartes de la m&ecirc;me famille sont en main.
+                        </p>
+                        <p>
+                            Les cartes Action peuvent &ecirc;tre jou&eacute;es &agrave; la fin de chaque tour pour influencer la partie.
+                            Elles permettent par exemple de faire piocher un adversaire, de d&eacute;fausser certaines maladies, ou de changer le sens du jeu. 
+                            Sick Game est un jeu d'ambiance, avec des r&eacute;f&eacute;rences &agrave; la pop culture et une dose d'humour noir. <br>
+                            <span class="sousligne">Logiciels utilis&eacute;s :</span><br>
+                        </p>
+                        <div class="outils">
+                            <img src="../img/adobe-indesign.png" alt="Indesign Logo">
+                            <img src="../img/adobe-illustrator.png" alt="Illustrator Logo">
+                            <img src="../img/adobe-photoshop.png" alt="Photoshop Logo">
+                            <img src="../img/figma.png" alt="Figma Logo">
+                        </div>
+                    </div>
+                    <div class="real-corps-block" id="asset">
+                        <img src="../img/sickgamephoto.png" alt="Photo Sick Game">
+                        <img src="../img/sickgamephoto2.png" alt="Photo Sick Game 2">
+                    </div>
+                    <div class="real-corps-block">
+                        <h1 id="h2">D&eacute;roul&eacute; de la partie</h1>
+                        <p>
+                            Une partie commence par la distribution des cartes aux joueurs, 
+                            suivie par la mise en place de la pioche et de la carte compte-tour sur la zone de jeu. 
+                            Chaque joueur doit poser face visible une carte de maladie incurable s’il en poss&egrave;de une.
+                        </p>
+                        <p>
+                            Ensuite, les cartes &Eacute;tat sont distribu&eacute;es et pos&eacute;es face visible devant chaque joueur. 
+                            Le premier joueur est celui qui a &eacute;t&eacute; malade le plus r&eacute;cemment.
+                        </p>
+                        <p>
+                            Pour gagner la partie, il faut avoir le moins de points possible &agrave; la fin du jeu. 
+                            &Agrave; chaque tour, les joueurs commencent en piochant une carte. 
+                            Ils peuvent ensuite choisir entre jouer une carte Action, 
+                            d&eacute;fausser une carte (sauf une carte de maladie incurable) et piocher deux nouvelles cartes, 
+                            ou transf&eacute;rer une carte al&eacute;atoire au joueur suivant (y compris une maladie). 
+                            Les cartes sont plac&eacute;es face cach&eacute;e, et le joueur suivant choisit celle qu’il souhaite r&eacute;cup&eacute;rer. 
+                            Une fois que chaque joueur a termin&eacute; ses actions, le jeton est d&eacute;plac&eacute; sur la carte compte-tour, 
+                            et le tour suivant commence. 
+                            La partie se termine apr&egrave;s six tours, mais il est possible de jouer plus longtemps si on le souhaite. 
+                            Le joueur avec le moins de points gagne la partie.
+                        </p>
+                        <p>
+                            &Agrave; la fin, les joueurs retournent leurs cartes face visible et additionnent les points indiqu&eacute;s sur les cartes de maladie, 
+                            en tenant compte de leurs cartes &Eacute;tat et de leurs cartes M&eacute;dicament. 
+                            Si une nouvelle partie est lanc&eacute;e, le joueur ayant obtenu le plus de points devient le premier joueur.
+                        </p>
+                    </div>
+                    <div class="real-corps-block" id="retour">
+                        <a href="../realisations">
+                            <button class="btn"><i class="fa fa-arrow-left"></i> R&eacute;alisations</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <ul class="copy"> 
+                <li>© 2024 Diallo Aboubacar | Tous droits r&eacute;serv&eacute;s.</li> 
+                <li><a href="../mentionslegales">Mentions L&eacute;gales</a></li>
+            </ul>
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!--Pour les animations de scroll-->
+        <script>
+            AOS.init();
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" 
+        integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="../js/app.js"></script>
+    </body>
+</html>
