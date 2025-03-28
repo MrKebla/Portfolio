@@ -156,7 +156,29 @@ nav {
     border-radius: 9px;
 }
 
-    /********* Contenu *********/
+.btn {
+    border-width: 1px;
+    padding: 0.75rem;
+    margin: 1rem 0 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background: rgb(250, 250, 250);
+    border-radius: 9px;
+    transition: 0.3s;
+    border: 1px solid whitesmoke;
+}
+
+.btn:hover {
+    background-color: #04041c;
+    color: rgb(230, 230, 230);
+}
+
+.btn.active {
+    background-color: #04041c;
+    color: white;
+}
+    /********* Page Accueil *********/
 
         /********* Présentation *********/
 
@@ -168,9 +190,9 @@ nav {
 
 .prez h1 {
     font-size: 56px;
-    text-transform: uppercase;
     line-height: 3.5rem;
     letter-spacing: 1rem;
+    color: #f1f0a9;
 }
 
 .prez h2, .proj h2 {
@@ -204,30 +226,16 @@ nav {
     text-decoration: underline;
 }
 
-.btn {
-    border-width: 1px;
-    padding: 0.75rem;
-    margin: 1rem 0 1rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    cursor: pointer;
-    background: rgb(250, 250, 250);
-    border-radius: 9px;
-    transition: 0.3s;
-    border: 1px solid whitesmoke;
+#prenom {
+    text-transform: lowercase;
+    color: #f1f0a9;
 }
 
-.btn:hover {
-    background-color: #04041c;
-    color: rgb(230, 230, 230);
+#nom {
+    color: whitesmoke;
 }
 
-.btn.active {
-    background-color: #04041c;
-    color: white;
-}
-
-        /********* Realisation *********/
+        /********* Projets *********/
 
 .proj {
     background-color: #53a4ab;
@@ -305,7 +313,7 @@ footer ul li a:hover {
 }
 
 .mail a {
-    font-size: 20px;
+    font-size: 17.5px;
     text-decoration: none;    
     color: rgb(200, 200, 200);
 }
@@ -314,7 +322,7 @@ footer ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 1.25rem 0 1.25rem;
+    padding: 1.25rem 0 1rem;
     color: rgb(200, 200, 200);
     text-align: center;
     background-color: #04041c;
@@ -322,8 +330,8 @@ footer ul li a:hover {
     
 .rezo a {
     text-decoration: none;
-    font-size: 35px;
-    padding-top: 1rem;
+    font-size: 30px;
+    padding-top: 0.75rem;
     line-height: 38px;
     color: inherit;
     transition: 0.5s;
@@ -550,7 +558,7 @@ footer ul li a:hover {
 
 @media all and (max-width: 991px) {
      
-        /********* Page Accueil *********/
+        /********* Présentation *********/
 
     .prez {
         padding: 2rem 0;
@@ -743,7 +751,7 @@ footer ul li a:hover {
     }
 
     .prez-corps-block img {
-        width: 275px;
+        width: 250px;
     }
 
     .proj-corps {
@@ -817,7 +825,7 @@ footer ul li a:hover {
 
 @media all and (max-width: 540px) {
     
-        /********* Pages des **Realisations *********/
+        /********* Pages des Realisations *********/
 
     .real {
         padding: 2rem;
@@ -846,16 +854,6 @@ footer ul li a:hover {
         width: 15%;
     }
     
-}
-
-@media all and (max-width: 500px) {
-    
-        /********* Partie Contact *********/
-
-    .mail a {
-        font-size: 17.5px;
-    }
-
 }
 
 @media all and (max-width: 460px) {
@@ -973,6 +971,16 @@ footer ul li a:hover {
         font-size: 27.5px;
     }
 
+        /********* Page Mentions Légales *********/
+
+    .mention {
+        font-size: 17.5px;
+    }
+
+    .mention h2 {
+        font-size: 30px;
+    }
+
 }
 
 @media all and (max-width: 350px) {
@@ -1033,14 +1041,18 @@ footer ul li a:hover {
         padding: 0.5rem 0.125rem;
     }
     
-        /********* Page Accueil *********/
+        /********* Présentation *********/
     
     .prez h1 {
         font-size: 35px;
     }
     
     .prez-corps-block img {
-        width: 225px;
+        width: 200px;
+    }
+
+    .prez h2, .proj h2 {
+        font-size: 30px;
     }
     
         /********* Pages Réalisations *********/
@@ -1081,6 +1093,13 @@ footer ul li a:hover {
         width: 15%;
     }
 
+        /********* Page Mentions Légales *********/
+
+    .mention {
+        font-size: 15px;
+    }
+        
+
 }
 
 @media all and (max-width: 300px) {
@@ -1091,12 +1110,25 @@ footer ul li a:hover {
         font-size: 10px;
     }
 
+        /********* Page Mentions Légales *********/
+
+    .mention {
+        font-size: 12.5px;
+    }
+        
+    .mention h2 {
+        font-size: 25px;
+    }
 }
 
 
 @media all and (max-width: 280px) {
 
-        /********* Présentation *********/
+        /********* Page Accueil *********/
+
+    .prez-corps-block img {
+        width: 150px;
+    }
 
     .proj-corps-block img {
         border-radius: 20px 0px;
@@ -1117,6 +1149,16 @@ footer ul li a:hover {
     
     #unijam {
         font-size: 23px;
+    }
+
+        /********* Page Mentions Légales *********/
+
+    .mention {
+        font-size: 10px;
+    }
+    
+    .mention h2 {
+        font-size: 20px;
     }
 
 }
