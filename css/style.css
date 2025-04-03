@@ -494,7 +494,7 @@ footer ul li a:hover {
     justify-content: space-evenly;
 }
 
-#logo img, #asset img {
+#logo img, #asset img, #asset2 img, #asset3 img {
     border: 2px solid #f1f0a9;
 }
 
@@ -504,13 +504,23 @@ footer ul li a:hover {
 }
 
 #asset img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+#asset2 img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+#asset3 img {
     width: 30%;
     border-radius: 10px;
 }
 
 #h2 {
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 45px;
     color: #f1f0a9; 
 }
 
@@ -551,8 +561,12 @@ footer ul li a:hover {
 
         /********* Pages des Réalisations *********/
 
-    #asset img {
-        width: 40%;
+    .real h1 {
+        font-size: 50px;
+    }
+
+    #h2 {
+        font-size: 40px;
     }
     
 }
@@ -596,21 +610,20 @@ footer ul li a:hover {
         width: 85%;
     }
 
-    .real p {
-        font-size: 25px;
-        padding: 1rem;
+    .real h1 {
+        font-size: 47.5px;
+    }
+
+    #h2 {
+        font-size: 37.5px;
     }
 
     .outils img {
-        width: 10%;
+        width: 7.5%;
     }
 
     #asset {
         justify-content: space-around;
-    }
-
-    #asset img {
-        width: 45%;
     }
 
 }
@@ -656,6 +669,15 @@ footer ul li a:hover {
 
     .real {
         padding: 2rem;
+    }
+
+    .real h1 {
+        font-size: 45px;
+        letter-spacing: 0.5rem;
+    }
+
+    #h2 {
+        font-size: 35px;
     }
 
     .real-corps-block {
@@ -782,6 +804,15 @@ footer ul li a:hover {
 
         /********* Pages des Réalisations *********/
 
+    .real h1 {
+        font-size: 42.5px;
+        letter-spacing: 0.25rem;
+    }
+    
+    #h2 {
+        font-size: 32.5px;
+    }
+    
     .real-corps-block {
         width: 95%;
     }
@@ -789,14 +820,9 @@ footer ul li a:hover {
     .real-corps-block img {
         width: 500px;
     }
-
-    .real p {
-        font-size: 25px;
-        padding: 1.75rem 1rem;
-    }
     
     .outils img {
-        width: 15%;
+        width: 10%;
     }
 
 }
@@ -836,7 +862,13 @@ footer ul li a:hover {
 }
 
 @media all and (max-width: 540px) {
-    
+ 
+        /********* Page Réalisations *********/
+
+    #accomp {
+        font-size: 35px;
+    }
+
         /********* Pages des Realisations *********/
 
     .real {
@@ -854,12 +886,21 @@ footer ul li a:hover {
 
     .real h1 {
         letter-spacing: 0;
-        font-size: 45px;
+        font-size: 40px;
+        line-height: 3rem;
+    }
+
+    #h2 {
+        font-size: 30px;
     }
 
     .real p {
-        font-size: 22px;
+        font-size: 17.5px;
         padding: 0;
+    }
+
+    #asset img,  #asset2 img {
+        width: 80%;
     }
 
     .outils img {
@@ -881,6 +922,13 @@ footer ul li a:hover {
     .mail a {
         font-size: 15px;
     }
+
+        /********* Page Réalisations *********/
+
+    #accomp {
+        font-size: 32.5px;
+    }
+    
         /********* Pages des Réalisations *********/
 
     .real-corps-block img {
@@ -898,6 +946,12 @@ footer ul li a:hover {
 }
 
 @media all and (max-width: 440px) {
+
+        /********* Page Réalisations *********/
+
+    #accomp {
+        font-size: 30px;
+    }    
 
         /********* Pages des Réalisations *********/
 
@@ -922,7 +976,12 @@ footer ul li a:hover {
         /********* Pages des Réalisations *********/
 
     .real h1 {
-        font-size: 42.5px;
+        font-size: 35px;
+        line-height: 2.5rem;
+    }
+
+    #h2 {
+        font-size: 25px;
     }
     
     .real-corps-block img {
@@ -937,7 +996,7 @@ footer ul li a:hover {
         justify-content: space-around;
     }
 
-    #logo img, #asset img {
+    #logo img {
         width: 45%;
         border: 2px solid #f1f0a9;
     }
@@ -967,15 +1026,11 @@ footer ul li a:hover {
         border-radius: 15px;
     }
 
+    #accomp {
+        font-size: 27.5px;
+    }
+
         /********* Pages des Réalisations *********/
-
-    .real p {
-        font-size: 20px;
-    }
-
-    .real h1 {
-        font-size: 39px;
-    }
     
     .real-corps-block img {
         width: 225px;
@@ -1021,7 +1076,19 @@ footer ul li a:hover {
     .real h1 {
         font-size: 32.5px;
     }
-    
+
+    .real p {
+        font-size: 15px;
+    }
+
+    #h2 {
+        font-size: 22.5px;
+    }
+
+    #asset img,  #asset2 img {
+        width: 90%;
+    }
+
     .real-corps-block img {
         width: 215px;
     }
@@ -1084,6 +1151,10 @@ footer ul li a:hover {
         padding: 0.75rem;
     }
 
+    #accomp {
+        font-size: 25px;
+    }
+    
         /********* Pages des Réalisations *********/
 
     .real {
@@ -1101,13 +1172,11 @@ footer ul li a:hover {
 
     .real h1 {
         font-size: 27.5px;
-        letter-spacing: 0.125rem;
         line-height: 2rem;
         padding: 0.75rem 0 0;
     }
 
     .real p {
-        font-size: 18px;
         padding: 0.125rem;
     }
     
@@ -1146,7 +1215,13 @@ footer ul li a:hover {
     .copy {
         font-size: 10px;
     }
-        
+
+        /********* Page Réalisations *********/
+
+    #accomp {
+        font-size: 22.5px;
+    }
+       
 }
 
 @media all and (max-width: 280px) {
@@ -1171,8 +1246,20 @@ footer ul li a:hover {
     .content img {
         border-radius: 10px;
     }
-
+ 
+    #accomp {
+        font-size: 20px;
+    }
+    
         /********* Pages des Réalisations *********/
+
+    .real p {
+        font-size: 12.5px;
+    }
+
+    #h2 {
+        font-size: 20px;
+    }
     
     #unijam {
         font-size: 23px;
