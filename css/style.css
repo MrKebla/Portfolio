@@ -882,12 +882,6 @@ footer ul li a:hover {
 }
 
 @media all and (max-width: 540px) {
- 
-        /********* Page Mes Projets *********/
-
-    #accomp {
-        font-size: 35px;
-    }
 
         /********* Pages des Projets *********/
 
@@ -949,12 +943,6 @@ footer ul li a:hover {
     .mail a {
         font-size: 15px;
     }
-
-        /********* Page Mes Projets *********/
-
-    #accomp {
-        font-size: 32.5px;
-    }
     
         /********* Pages des Projets *********/
 
@@ -976,13 +964,7 @@ footer ul li a:hover {
 
 }
 
-@media all and (max-width: 440px) {
-
-        /********* Page Mes Projets *********/
-
-    #accomp {
-        font-size: 30px;
-    }    
+@media all and (max-width: 440px) { 
 
         /********* Pages des Projets *********/
 
@@ -1058,10 +1040,6 @@ footer ul li a:hover {
 
     .content img {
         border-radius: 15px;
-    }
-
-    #accomp {
-        font-size: 27.5px;
     }
 
         /********* Pages des Projets *********/
@@ -1180,10 +1158,6 @@ footer ul li a:hover {
         font-size: 32px;
         padding: 0.75rem;
     }
-
-    #accomp {
-        font-size: 25px;
-    }
     
         /********* Pages des Projets *********/
 
@@ -1245,12 +1219,6 @@ footer ul li a:hover {
     .copy {
         font-size: 10px;
     }
-
-        /********* Page Mes Projets *********/
-
-    #accomp {
-        font-size: 22.5px;
-    }
        
 }
 
@@ -1275,10 +1243,6 @@ footer ul li a:hover {
 
     .content img {
         border-radius: 10px;
-    }
- 
-    #accomp {
-        font-size: 20px;
     }
     
         /********* Pages des Projets *********/
