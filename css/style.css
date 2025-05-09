@@ -46,6 +46,10 @@ h2 {
     font-family: 'Taviraj', serif;
 }
 
+h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
     /********* Header *********/
 
 header {
@@ -447,6 +451,10 @@ footer ul li a:hover {
 
 .projets-corps-block a {
     color: #f1f0a9;
+}
+
+.projets-corps-block h2 {
+    letter-spacing: 0.25rem;
 }
 
 .minia {
@@ -996,6 +1004,10 @@ footer ul li a:hover {
     #h2 {
         font-size: 25px;
     }
+
+    h3 {
+        font-size: 15px;
+    }
     
     .projets-corps-block img {
         width: 250px;
@@ -1253,6 +1265,10 @@ footer ul li a:hover {
 
     #h2 {
         font-size: 20px;
+    }
+
+    h3 {
+        font-size: 14px;
     }
     
     #unijam {

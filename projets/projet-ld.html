@@ -1,151 +1,184 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Projet Level Design - Nevenkebla</title>
-        <script src="https://kit.fontawesome.com/a44d991d57.js" crossorigin="anonymous"></script>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--Les animations de scroll-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&family=Roboto&family=Taviraj:wght@300&display=swap" rel="stylesheet"> <!--La police google font-->
-        <link rel="icon" href="../img/LogoFond.png" type="image/png"/>
-        <link rel="stylesheet" href="../css/style.css">
-    </head>
-    <body>
-        <header>
-            <div class="langs">
-                <a href="#" class="lang">
-                    <img src="../img/France.png" alt="Drapeau France">
-                    <p>Fran&ccedil;ais</p> 
-                </a>
-                <a href="../en/projects/projet-ld" class="lang">
-                    <img src="../img/English.png" alt="Drapeau United-States">
-                    <p>English</p>
-                </a>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projet de Level Design r&eacute;alis&eacute; dans le cadre d'une licence professionnelle en m&eacute;tiers du jeu vid&eacute;o.">
+    <title>Projet Level Design - Nevenkebla</title>
+    <script src="https://kit.fontawesome.com/a44d991d57.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--Les animations de scroll-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&family=Roboto&family=Taviraj:wght@300&display=swap" rel="stylesheet"> <!--La police google font-->
+    <link rel="icon" href="../../img/LogoFond.png" type="image/png"/>
+    <link rel="stylesheet" href="../../css/style.css"> 
+  </head>
+  <body>
+    <header>
+      <div class="langs">
+        <a href="#" class="lang">
+          <img src="../../img/France.png" alt="Drapeau fran&ccedil;ais">
+          <p>Fran&ccedil;ais</p>
+        </a>
+        <a href="../../en/projects/projet-ld" class="lang">
+          <img src="../../img/English.png" alt="Drapeau am&eacute;ricain">
+          <p>English</p>
+        </a>
+      </div>
+      <nav>
+        <div class="logo">
+          <a href="../index"><img src="../../img/Logo.png" alt="Logo de Nevenkebla"></a>
+        </div>
+        <div class="toggle">
+          <i class="fas fa-bars ouvrir"></i>
+          <i class="fas fa-times fermer"></i>
+        </div>
+        <ul class="menu">
+          <li><a href="../../index" class="menu-lien">Accueil</a></li>
+          <li><a href="../../mes-projets" class="menu-lien">Mes Projets</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="projets">
+      <div class="container">
+        <article class="projets-corps">
+          <figure class="projets-corps-block">
+            <img src="../../img/MiniaProjetLD.png" alt="Miniature du projet de Level Design" class="minia">
+          </figure>
+          <section class="projets-corps-block">
+            <h1>Projet – Level Design</h1><br>
+            <p>
+              Ce projet final individuel a &eacute;t&eacute; r&eacute;alis&eacute; 
+              dans le cadre de la licence professionnelle M&eacute;tiers du Jeu Vid&eacute;o – parcours Game Design & Level Design. 
+              Il s'agissait de mettre en pratique l’ensemble des comp&eacute;tences acquises au fil du semestre. 
+              Le projet, d’une dur&eacute;e d’environ deux semaines, devait inclure des m&eacute;caniques d’infiltration, de plateforme et de combat. 
+              Le moteur utilis&eacute; &eacute;tait Unreal Engine, en partant d’un projet de base contenant uniquement le personnage et ses d&eacute;placements. 
+              Tout le reste devait &ecirc;tre con&ccedil;u ou int&eacute;gr&eacute; par mes soins (assets, sons, gameplay, etc.).
+            </p>
+            <h3>D&eacute;roulement</h3>
+            <p>
+              Le projet comprenait plusieurs &eacute;tapes : d’abord la phase de croquis pour concevoir les diff&eacute;rents layouts des niveaux, 
+              suivie de la greybox pour v&eacute;rifier rapidement leur viabilit&eacute; et leurs dimensions. 
+              Ensuite, la phase de placement d’assets, durant laquelle je positionnais les objets interactifs, les ennemis et les scripts de gameplay. 
+              Enfin, la phase finale consistait &agrave; appliquer les textures d&eacute;finitives, ainsi que les effets visuels, sonores et d’&eacute;clairage. 
+              Des tests r&eacute;guliers &eacute;taient n&eacute;cessaires pour assurer la stabilit&eacute; du jeu &agrave; chaque nouvelle impl&eacute;mentation. 
+              Le jeu devait durer environ 8 minutes, avec un walkthrough vid&eacute;o &agrave; produire en compl&eacute;ment.
+            </p>
+            <h3>Pitch</h3>
+            <p>
+              Le joueur incarne un voleur temporel poursuivi par la P.E.T. (Police Ex&eacute;cutive Temporelle). 
+              Il voyage &agrave; travers diff&eacute;rentes &eacute;poques pour retrouver une relique l&eacute;gendaire, en r&eacute;solvant des &eacute;nigmes, 
+              affrontant des ennemis et progressant dans des environnements hostiles.
+            </p>
+            <h3>Gameplay</h3>
+            <p>
+              Le gameplay du personnage est celui propos&eacute; par d&eacute;faut dans un nouveau projet Unreal Engine. 
+              Il peut se d&eacute;placer, courir, sauter, s’accroupir, attaquer et ramasser des objets (reliques, trousses de soin). 
+              Il &eacute;tait possible d’ajouter des m&eacute;caniques suppl&eacute;mentaires en demandant de l’aide au professeur, 
+              mais j’ai pr&eacute;f&eacute;r&eacute; me concentrer sur le reste du projet en raison des contraintes de temps et de mat&eacute;riel.
+            </p>
+            <a href="https://youtu.be/chlGAEAVerA" target="_blank">
+              <button class="btn">Regarder le walkthrough <i class="fa fa-arrow-up-right-from-square"></i></button>
+            </a>
+          </section>
+          <section class="projets-corps-block" id="asset3">
+            <img src="../../img/ProjetLD.png" alt="Niveau 1 - Grotte M&eacute;di&eacute;vale">
+            <img src="../../img/ProjetLD2.png" alt="Niveau 2 - Station Futuriste">
+            <img src="../../img/ProjetLD3.png" alt="Niveau 3 - Combat Final">
+          </section>
+          <section class="projets-corps-block">
+            <h2 id="h2">Niveaux</h2><br>
+            <h3>Niveau 1 – Grotte m&eacute;di&eacute;vale (infiltration)</h3>
+            <p>
+              Ce niveau d’infiltration se d&eacute;roule dans une grotte m&eacute;di&eacute;vale. 
+              Le joueur doit y r&eacute;cup&eacute;rer trois petites reliques gard&eacute;es par des agents de la P.E.T. 
+              Ce niveau est inspir&eacute; d’un exercice sur <a href="/projets/uncharted.html" target="_blank">Uncharted</a> qui avait re&ccedil;u d’excellents retours. 
+              Je l’ai choisi comme niveau d’introduction.
+            </p>
+            <h3>Niveau 2 – Station futuriste (&eacute;nigme & plateforme)</h3>
+            <p>
+              Dans ce niveau futuriste, le joueur est confront&eacute; &agrave; une &eacute;nigme bas&eacute;e sur la m&eacute;moire : 
+              trois portes gard&eacute;es chacune par un agent, avec un chiffre affich&eacute; au-dessus. 
+              Le joueur doit se souvenir du nombre d’agents vus pr&eacute;c&eacute;demment pour choisir la bonne porte, menant &agrave; un ascenseur vers le niveau final. 
+              Les mauvaises portes d&eacute;clenchent un combat, et l’ascenseur ne s’active que si tous les ennemis sont vaincus. 
+              Trouver la bonne porte permet d’&eacute;viter un combat suppl&eacute;mentaire.
+            </p>
+            <h3>Niveau 3 – Combat final (futur au lieu de Japon f&eacute;odal)</h3>
+            <p>
+              Initialement pr&eacute;vu dans un d&eacute;cor Edo japonais, ce niveau a finalement gard&eacute; une ambiance futuriste &agrave; cause de contraintes techniques. 
+              Il met en sc&egrave;ne un combat contre un gardien puissant. Le joueur doit esquiver ses attaques et riposter aux bons moments. 
+              Une fois vaincu, l’acc&egrave;s &agrave; la relique l&eacute;gendaire s’ouvre.
+            </p>
+          </section>
+          <section class="projets-corps-block">
+            <h2 id="h2">Bilan</h2><br>
+            <h3>D&eacute;fis rencontr&eacute;s</h3>
+            <p>
+              Le principal d&eacute;fi a &eacute;t&eacute; de g&eacute;rer le temps et les moyens &agrave; disposition. 
+              Les limites techniques de mon ordinateur ont influenc&eacute; des d&eacute;cisions de design, notamment au niveau des transitions d’&eacute;poque ou des effets visuels.
+            </p>
+            <h3>Ce dont je suis fier</h3>
+            <p>
+              Je suis fier d’avoir men&eacute; ce projet seul, dans les temps, 
+              en concr&eacute;tisant un concept original autour du voyage temporel avec des types de gameplay vari&eacute;s. 
+              J’ai aussi su recycler intelligemment un ancien exercice pour en faire un niveau &agrave; part enti&egrave;re.
+            </p>
+            <h3>Ce que ce projet m’a apport&eacute;</h3>
+            <p>
+              Ce projet m’a permis de renforcer ma ma&icirc;trise d’Unreal Engine, de mieux comprendre les diff&eacute;rents m&eacute;tiers du jeu vid&eacute;o, 
+              et d’apprendre &agrave; faire des compromis judicieux tout en gardant une vision coh&eacute;rente du projet.
+            </p>
+            <h3>Conclusion</h3>
+            <p>
+              Je suis globalement satisfait du r&eacute;sultat, m&ecirc;me si j’aurais aim&eacute; peaufiner davantage certains aspects. 
+              Ce projet repr&eacute;sente une base solide pour mes projets futurs. <br>
+              <ins>Langages &#38; logiciels utilis&eacute;s :</ins><br>
+            </p>
+            <div class="outils">
+              <img src="../../img/AdobePhotoshop.png" alt="Photoshop Logo">
+              <img src="../../img/UnrealEngine.png" alt="Unreal Engine Icon">
+              <img src="../../img/Github.png" alt="Github Logo">
             </div>
-            <nav>
-                <div class="logo">
-                    <a href="../index"><img src="../img/Logo.png" alt="Logo de Nevenkebla"></a>
-                </div>
-                <div class="toggle">
-                    <i class="fas fa-bars ouvrir"></i>
-                    <i class="fas fa-times fermer"></i>
-                </div>
-                <ul class="menu">
-                    <li><a href="../index" class="menu-lien">Accueil</a></li>
-                    <li><a href="../mes-projets" class="menu-lien">Mes Projets</a></li>
-                </ul> 
-            </nav>
-        </header>
-        <section class="projets">
-            <div class="container">
-                <div class="projets-corps"> 
-                    <div class="projets-corps-block">
-                        <img src="../img/MiniaProjetLD.png" alt="Miniature Projet de Level Design" class="minia">
-                    </div>
-                    <div class="projets-corps-block">
-                        <h1>Projet – Level Design</h1>
-                        <p>
-                            Projet final individuel réalisé dans le cadre de la licence professionnelle Métiers du Jeu Vidéo
-                            – parcours Game Design & Level Design.
-                            L’objectif : mettre en pratique toutes les compétences acquises durant le semestre.
-                        </p>
-                        <p>
-                            Durée du projet : environ deux semaines <br>
-                            Moteur utilisé : Unreal Engine (projet de base fourni avec personnage et déplacements) <br>
-                            Objectif : créer une expérience de jeu incluant infiltration, plateforme et combat <br>
-                            Durée du jeu : environ 8 minutes <br>
-                            Un walkthrough vidéo a été réalisé pour illustrer la progression dans les niveaux et les mécaniques de jeu. <br>
-                            
-                            Étapes de production : greybox → texturage → placement d’assets → tests réguliers
-                            Assets et sons : récupérés gratuitement en ligne (packs Unreal Marketplace)
-                        </p>
-                        <h2>Pitch</h2>
-                        <p>
-                            Le joueur incarne un <span class="gras">voleur temporel</span> poursuivi par la <span class="gras">P.E.T. (Police Exécutive Temporelle)</span>. 
-                            Il voyage à travers différentes époques afin de retrouver une <span class="gras">relique légendaire</span>, en résolvant des énigmes, 
-                            en affrontant des ennemis et en progressant dans des environnements hostiles.
-                        </p>
-                        <h2>Gameplay</h2>
-                        <p>Le personnage peut :
-                            <br>
-                            Se déplacer, courir, sauter, s’accroupir <br>
-                            Attaquer des ennemis <br>
-                            Ramasser des objets (reliques, trousses de soin) <br>
-                        </p>                        
-                        <a href="https://youtu.be/chlGAEAVerA" target="_blank">
-                            <button class="btn">Regarder le walkthrough <i class="fa fa-arrow-up-right-from-square"></i></button>
-                        </a>
-                        <h1 id="h2">Niveaux</h1>  
-                        <h2>Niveau 1 – Grotte médiévale (infiltration)</h2>
-                        <p>
-                            Le joueur doit trouver 3 reliques dissimulées dans une grotte pour obtenir des coordonnées spatio-temporelles. 
-                            Le niveau est rempli d’agents de la P.E.T. en patrouille. Ce niveau provient d’un ancien exercice réalisé 
-                            en cours de level design (inspiré d’<em>Uncharted</em>) qui avait reçu de bons retours.
-                        </p>
-                        <h2>Niveau 2 – Station futuriste (énigme & plateforme)</h2>
-                        <p>
-                            Dans un décor futuriste, le joueur doit choisir entre trois portes, chacune gardée par un agent de la P.E.T. 
-                            Le bon choix dépend de sa mémoire : combien d’agents étaient présents dans le niveau précédent ?
-                            La bonne porte mène à un ascenseur. Les mauvaises déclenchent un combat.
-                        </p>
-                        <h2>Niveau 3 – Combat final (futur au lieu de Japon féodal)</h2>
-                        <p>
-                            Le joueur affronte un gardien résistant qui protège l’accès à la relique.  
-                            Initialement prévu dans un décor époque Edo japonaise, ce niveau est finalement resté dans un style futuriste 
-                            par manque de temps et en raison des limites techniques de mon ordinateur.
-                        </p>
-                        <h1 id="h2">Bilan</h1>
-                        <h2>Défis rencontrés</h2>
-                        <p>
-                            Évaluer ce qui était réalisable dans le temps imparti <br>
-                            Composer avec les limites de mon matériel (ordinateur peu puissant) <br>
-                            Trouver des assets gratuits de qualité pour le projet <br>
-                            Faire des compromis sur l’ambiance visuelle et sonore <br>
-                            Tester fréquemment pour éviter de “casser” le projet après chaque ajout <br>
-                        </p>
-                        <h2>Ce dont je suis fier</h2>
-                        <p>
-                            Avoir terminé le projet dans les délais impartis <br>
-                            Avoir conçu un concept original autour du voyage temporel <br>
-                            Avoir intégré différentes mécaniques de gameplay selon les niveaux <br>
-                            Avoir réutilisé intelligemment un ancien exercice en point de départ <br>
-                        </p>
-                        <h2>Compétences développées</h2>
-                        <p>
-                            Maitrise accrue d’Unreal Engine <br>
-                            Compréhension des rôles en production de jeu (game, level, sound design) <br>
-                            Meilleure organisation et gestion de la production <br>
-                            <span class="sousligne">Langages &#38; logiciels utilis&eacute;s :</span><br>
-                        </p>    
-                        </p>
-                        <div class="outils">
-                            <img src="../img/UnrealEngine.png" alt="Unreal Engine Icon">
-                            <img src="../img/Github.png" alt="Github Logo">
-                        </div>
-                    </div>
-                    <div class="projets-corps-block" id="retour">
-                        <a href="../mes-projets">
-                            <button class="btn"><i class="fa fa-arrow-left"></i> Mes Projets</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <ul class="copy"> 
-                <li>© 2025 Diallo Aboubacar | Tous droits r&eacute;serv&eacute;s.</li> 
-                <li><a href="../mentions-legales">Mentions L&eacute;gales</a></li>
-            </ul>
-        </footer>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!--Pour les animations de scroll-->
-        <script>
-            AOS.init();
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" 
-        integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" 
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="../js/app.js"></script>
-    </body>
+          </section>
+          <section class="projets-corps-block">
+            <h2 id="h2">Documents</h2><br>
+            <p>
+              Dans le cadre de ce projet, 
+              plusieurs documents ont &eacute;t&eacute; &eacute;labor&eacute;s en parall&egrave;le afin de structurer efficacement le travail de conception. 
+              Les <i>bubble diagrams</i> (ou diagrammes en bulles) 
+              sont des repr&eacute;sentations visuelles des id&eacute;es pr&eacute;sentes dans une zone ou un niveau. 
+              Ils permettent d’organiser et de structurer ces id&eacute;es avant de passer &agrave; une phase de planification plus d&eacute;taill&eacute;e. 
+              Des <i>layouts</i> ont &eacute;galement &eacute;t&eacute; r&eacute;alis&eacute;s : ils offrent une vue du niveau en top-down, 
+              sans textures, tout en int&eacute;grant les informations essentielles relatives au gameplay et &agrave; la structure du niveau.
+              Les <i>Level Design Documents (LDD)</i> viennent compl&eacute;ter ces supports. 
+              Ils d&eacute;taillent la trame narrative des niveaux, les objectifs &agrave; atteindre, 
+              les choix de conception ainsi que les inspirations ayant guid&eacute; leur cr&eacute;ation. 
+              On y retrouve &eacute;galement les autres documents mentionn&eacute;s pr&eacute;c&eacute;demment, 
+              centralis&eacute;s pour une meilleure compr&eacute;hension du processus de cr&eacute;ation. <br>
+              <a href="../../doc/Diallo_Aboubacar_Projet_LD_LDD.pdf" target="_blank"><button class="btn">Projet Level Design LDD</button></a>
+              <a href="../../doc/Diallo_Aboubacar_Projet_LD_Layout_Niveau1.pdf" target="_blank"><button class="btn">Layout Niveau1</button></a>
+              <a href="../../doc/Diallo_Aboubacar_Projet_LD_Layouts_Niveaux2&3.pdf" target="_blank"><button class="btn">Layouts Niveaux 2 & 3</button></a>
+            </p>
+          </section>
+          <section class="projets-corps-block" id="retour">
+            <a href="../mes-projets">
+              <button class="btn"><i class="fa fa-arrow-left"></i> Mes Projets</button>
+            </a>
+          </section>
+        </article>
+      </div>
+    </main>
+    <footer>
+      <ul class="copy">
+        <li>© 2025 Diallo Aboubacar | Tous droits r&eacute;serv&eacute;s.</li>
+        <li><a href="../../mentions-legales">Mentions L&eacute;gales</a></li>
+      </ul>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" 
+    integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../../js/app.js"></script>
+  </body>
 </html>
