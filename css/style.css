@@ -168,21 +168,32 @@ nav {
     text-transform: uppercase;
     letter-spacing: 2px;
     cursor: pointer;
-    background: rgb(250, 250, 250);
+    background: whitesmoke;
     border-radius: 9px;
     transition: 0.3s;
     border: 1px solid whitesmoke;
 }
 
-.btn:hover {
-    background-color: #04041c;
-    color: rgb(230, 230, 230);
+.lien-btn {
+    padding: 0.125rem 0.625rem;
+    color: #04041c;
+    display: inline-block;
+    background: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 1rem 0 1rem;
+    border-radius: 9px;
+    transition: 0.3s;
+    border: 1px solid whitesmoke;
+    font-size: 13.5px;
 }
 
-.btn.active {
+.btn:hover, .btn.active, .lien-btn:hover{
     background-color: #04041c;
-    color: white;
+    color: whitesmoke;
 }
+
     /********* Accueil *********/
 
         /********* Présentation *********/
@@ -228,7 +239,6 @@ nav {
 
 .under {
     color: #f1f0a9;
-    text-decoration: underline;
 }
 
 #prenom {
@@ -277,6 +287,10 @@ nav {
     display: flex;
     justify-content: flex-end;
     padding-bottom: 1rem;
+}
+
+#voirplus a {
+    padding: 0.5rem 1rem;
 }
 
     /********* Footer *********/
@@ -449,28 +463,22 @@ footer ul li a:hover {
     margin: 1rem 0;
 }
 
-.projets-corps-block a {
-    color: #f1f0a9;
-}
-
 .projets-corps-block h2 {
     letter-spacing: 0.25rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+    font-size: 45px;
+    color: #f1f0a9; 
 }
 
 .minia {
     border-radius: 20px;
 }
 
-.gras {
-    font-weight: bold;
-}
-
-.italique {
-    font-style: italic;
-}
-
-.sousligne {
-    text-decoration: underline;
+.retour {
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .outils {
@@ -483,10 +491,37 @@ footer ul li a:hover {
     width: 5%;
 }
 
-#retour {
-    width: 75%;
+.lien {
+    color: #f1f0a9;
+}
+
+.asset img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.asset2 img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.asset3 img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.asset, .projet-logo {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
+}
+
+.asset img, .asset2 img, .asset3 img, .projet-logo img {
+    border: 2px solid #f1f0a9;
+}
+
+.projet-logo img {
+    width: 35%;    
+    border-radius: 6%;
 }
 
 #interlink {
@@ -495,41 +530,6 @@ footer ul li a:hover {
 
 #interlink:hover {
     color: #53a4ab;
-}
-
-#logo, #asset {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#logo img, #logo2 img, #asset img, #asset2 img, #asset3 img {
-    border: 2px solid #f1f0a9;
-}
-
-#logo img, #logo2 img {
-    width: 35%;    
-    border-radius: 6%;
-}
-
-#asset img {
-    width: 60%;
-    border-radius: 10px;
-}
-
-#asset2 img {
-    width: 45%;
-    border-radius: 10px;
-}
-
-#asset3 img {
-    width: 30%;
-    border-radius: 10px;
-}
-
-#h2 {
-    text-transform: uppercase;
-    font-size: 45px;
-    color: #f1f0a9; 
 }
 
     /********* Mentions Légales *********/
@@ -573,7 +573,7 @@ footer ul li a:hover {
         font-size: 50px;
     }
 
-    #h2 {
+    .projets-corps-block h2 {
         font-size: 40px;
     }
     
@@ -626,7 +626,7 @@ footer ul li a:hover {
         font-size: 47.5px;
     }
 
-    #h2 {
+    .projets-corps-block h2 {
         font-size: 37.5px;
     }
 
@@ -634,8 +634,12 @@ footer ul li a:hover {
         width: 7.5%;
     }
 
-    #asset {
+    .asset {
         justify-content: space-around;
+    }
+
+    .projet-logo img {
+        width: 35%;    
     }
 
 }
@@ -688,7 +692,7 @@ footer ul li a:hover {
         letter-spacing: 0.5rem;
     }
 
-    #h2 {
+    .projets-corps-block h2 {
         font-size: 35px;
     }
 
@@ -700,18 +704,17 @@ footer ul li a:hover {
         width: 525px;
     }
 
-    #logo img, #logo2 img {
+    .projet-logo img {
         width: 40%;
-    }
-
-    #unijam {
-        font-size: 50px;
     }
 
     .outils img {
         width: 7.5%;
     }
 
+    #unijam {
+        font-size: 50px;
+    }
 }
 
 @media all and (max-width: 730px) {
@@ -781,6 +784,18 @@ footer ul li a:hover {
         border-radius: 5px;
     }
 
+    .lien-btn  {
+        text-transform: none;
+        letter-spacing: 0px;
+        border-radius: 5px;
+        padding: 0.125rem 0.625rem;
+        margin: 0.75rem 0 0.75rem;
+    }
+
+    #voirplus a {
+        padding: 0.375rem 0.875rem;
+    }
+
         /********* Accueil *********/
 
     .prez, .proj {
@@ -829,8 +844,9 @@ footer ul li a:hover {
         letter-spacing: 0.25rem;
     }
     
-    #h2 {
+    .projets-corps-block h2 {
         font-size: 32.5px;
+        line-height: 2.75rem;
     }
     
     .projets-corps-block {
@@ -843,6 +859,10 @@ footer ul li a:hover {
     
     .outils img {
         width: 10%;
+    }
+
+    .projet-logo img {
+        width: 40%;    
     }
 
     #unijam {
@@ -883,6 +903,10 @@ footer ul li a:hover {
         width: 10%;
     }
 
+    .projet-logo img {
+        width: 40%;
+    }
+
     #unijam {
         font-size: 42.5px;
     }
@@ -912,7 +936,7 @@ footer ul li a:hover {
         line-height: 3rem;
     }
 
-    #h2 {
+    .projets-corps-block h2 {
         font-size: 30px;
     }
 
@@ -921,7 +945,7 @@ footer ul li a:hover {
         padding: 0;
     }
 
-    #asset img, #asset2 img, #asset3 img {
+    .asset img, .asset2 img, .asset3 img {
         width: 80%;
     }
 
@@ -929,13 +953,14 @@ footer ul li a:hover {
         width: 12.5%;
     }
 
+    .projet-logo img {
+        width: 40%;
+    }
+
     #unijam {
         font-size: 40px;
     }
 
-    #logo2 img {
-        width: 45%;
-    }
         /********* Copyrights *********/
 
     .copy {
@@ -966,6 +991,10 @@ footer ul li a:hover {
         font-size: 15px;
     }
 
+    .projet-logo img {
+        width: 40%;
+    }
+
     #unijam {
         font-size: 35px;
     }
@@ -982,6 +1011,10 @@ footer ul li a:hover {
 
     .outils img {
         width: 15%;
+    }
+
+    .projet-logo img {
+        width: 40%;
     }
 
 }
@@ -1001,8 +1034,9 @@ footer ul li a:hover {
         line-height: 2.5rem;
     }
 
-    #h2 {
+    .projets-corps-block h2 {
         font-size: 25px;
+        line-height: 2.5rem;
     }
 
     h3 {
@@ -1017,16 +1051,12 @@ footer ul li a:hover {
         width: 15%;
     }
 
-    #logo {
+    .projet-logo {
         justify-content: space-around;
     }
 
-    #logo img {
+    .projet-logo img {
         width: 45%;
-    }
-
-    #logo2 img {
-        width: 50%;
     }
 
     #unijam {
@@ -1062,6 +1092,10 @@ footer ul li a:hover {
 
     .outils img {
         width: 15%;
+    }
+
+    .projet-logo img {
+        width: 45%;
     }
 
     #unijam {
@@ -1101,11 +1135,12 @@ footer ul li a:hover {
         font-size: 32.5px;
     }
 
-    #h2 {
+    .projets-corps-block h2 {
         font-size: 22.5px;
+        line-height: 2.25rem;
     }
 
-    #asset img, #asset2 img, #asset3 img {
+    .asset img, .asset2 img, .asset3 img {
         width: 90%;
     }
 
@@ -1115,6 +1150,10 @@ footer ul li a:hover {
 
     .outils img {
         width: 15%;
+    }
+
+    .projet-logo img {
+        width: 45%;
     }
 
 }
@@ -1200,12 +1239,22 @@ footer ul li a:hover {
         width: 15%;
     }
 
+    .projet-logo img {
+        width: 45%;
+    }
+
         /********* Mentions Légales *********/
 
     .mention {
         font-size: 15px;
     }
-        
+
+          /********* Boutons *********/
+
+    .lien-btn  {
+        padding: 0.125rem 0.5rem;
+    }
+
 }
 
 @media all and (max-width: 300px) {
@@ -1231,7 +1280,7 @@ footer ul li a:hover {
     .copy {
         font-size: 10px;
     }
-       
+ 
 }
 
 @media all and (max-width: 280px) {
@@ -1263,8 +1312,9 @@ footer ul li a:hover {
         font-size: 12.5px;
     }
 
-    #h2 {
+    .projets-corps-block h2 {
         font-size: 20px;
+        line-height: 2rem;
     }
 
     h3 {
